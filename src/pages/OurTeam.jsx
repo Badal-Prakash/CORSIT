@@ -1,6 +1,6 @@
 function OurTeam() {
   return (
-    <div>
+    <div className="h-screen w-screen">
       <h1>Our team</h1>
     </div>
   );

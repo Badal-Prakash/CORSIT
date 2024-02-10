@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div>
+    <div className="h-screen w-screen">
       <h1>Contact</h1>
     </div>
   );

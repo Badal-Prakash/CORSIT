@@ -1,6 +1,6 @@
 function Hackfest() {
   return (
-    <div>
+    <div className="h-screen w-screen">
       <h1>heckfest</h1>
     </div>
   );

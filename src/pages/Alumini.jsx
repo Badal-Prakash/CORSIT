@@ -1,6 +1,6 @@
 function Alumini() {
   return (
-    <div>
+    <div className="h-screen w-screen">
       <h1>Alumini</h1>
     </div>
   );

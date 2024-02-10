@@ -1,4 +1,3 @@
-import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 function Header() {
   return (
@@ -17,11 +16,7 @@ function Header() {
               Home
             </li>
           </Link>
-          <Link to="/about">
-            <li className="hidden sm:inline text-slate-700 hover:underline cursor-pointer">
-              About
-            </li>
-          </Link>
+
           <Link to="/robocor">
             <li className=" sm:inline text-slate-700 hover:underline cursor-pointer">
               <span>Robocor-24</span>
@@ -35,6 +30,11 @@ function Header() {
           <Link to="/projects">
             <li className=" sm:inline text-slate-700 hover:underline cursor-pointer">
               Projects
+            </li>
+          </Link>
+          <Link to="/about">
+            <li className="hidden sm:inline text-slate-700 hover:underline cursor-pointer">
+              About
             </li>
           </Link>
           <Link to="/ourteam">

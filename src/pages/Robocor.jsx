@@ -1,6 +1,6 @@
 function Robocor() {
   return (
-    <div>
+    <div className="h-screen w-screen">
       <h1>Robocor</h1>
     </div>
   );

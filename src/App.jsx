@@ -8,6 +8,7 @@ import Robocor from "./pages/Robocor";
 import Projects from "./pages/Projects";
 import Alumini from "./pages/Alumini";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -23,6 +24,7 @@ function App() {
           <Route path="/robocor" element={<Robocor />}></Route>
           <Route path="/heckfest" element={<Heckfest />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
