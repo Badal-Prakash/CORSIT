@@ -1,11 +1,11 @@
 const Project = () => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-white ">
-      <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
+    <div className="w-full py-[10rem] px-4 bg-slate-900 ">
+      <h2 className="text-3xl text-center font-bold tracking-tight text-white sm:text-4xl">
         Bots & Projects
       </h2>
       <div className="max-w-[1240px]  my-14 mx-auto grid md:grid-cols-3 gap-8">
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 text-white bg-slate-600">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src="./bots/LFR.jpg"
@@ -22,7 +22,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl text-white bg-slate-600 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-64 rounded-xl mx-auto mt-[-3rem] bg-transparent"
             src="./bots/Home-automation.jpg"
@@ -40,7 +40,7 @@ const Project = () => {
             </p>
           </div>
         </div>
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className=" text-white bg-slate-600 w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src="./bots/obstacle.png"
@@ -61,7 +61,7 @@ const Project = () => {
       </div>
       {/* //end of 1 */}
       <div className="max-w-[1240px] my-14 mx-auto grid md:grid-cols-3 gap-8">
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className=" text-white bg-slate-600 w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src="./bots/soccer.jpeg"
@@ -79,7 +79,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl text-white bg-slate-600 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-transparent"
             src="./bots/augmented.jpg"
@@ -97,7 +97,7 @@ const Project = () => {
             </p>
           </div>
         </div>
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="text-white bg-slate-600 w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src="./bots/gesture.png"
@@ -118,7 +118,7 @@ const Project = () => {
       </div>
       {/* //end of 2 */}
       <div className="max-w-[1240px] my-14 mx-auto grid md:grid-cols-3 gap-8">
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className=" text-white bg-slate-600 w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src="./bots/blue.jpg"
@@ -134,7 +134,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl text-white bg-slate-600 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-60 rounded-xl mx-auto mt-[-3rem] bg-transparent"
             src="./bots/self.webp"
@@ -152,7 +152,7 @@ const Project = () => {
             </p>
           </div>
         </div>
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className=" text-white bg-slate-600 w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src="./bots/robowar.jpeg"
@@ -169,7 +169,7 @@ const Project = () => {
       </div>
       {/* //end of 3 */}
       <div className="max-w-[1240px] my-16 mx-auto grid md:grid-cols-3 gap-8">
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className=" text-white bg-slate-600 w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src="./bots/obs.jpg"
@@ -187,7 +187,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl text-white bg-slate-600 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-60 rounded-xl mx-auto mt-[-3rem] bg-transparent"
             src="./bots/RFID.png"

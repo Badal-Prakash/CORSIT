@@ -5,7 +5,7 @@ import Triple from "./../../public/img/team1c.jpg";
 
 const About = () => {
   return (
-    <div className="w-full bg-slate-700 pt-32 pb-1 px-4">
+    <div className="w-full bg-slate-900 pt-32 pb-1 px-4">
       <h1 className="relative text-center text-3xl font-bold my-7 text-white">ABOUT US</h1>
       <div className=" max-w-full py-32  mx-auto grid gap-6 md:grid-cols-2">
         <div className="flex flex-col justify-center">
@@ -41,7 +41,7 @@ const About = () => {
       </h1>
 
       <div className="max-w-[1240px]  my-14 mx-auto grid md:grid-cols-3 gap-8">
-        <div className="w-full bg-slate-500 shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full bg-slate-600 shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-24 h-24 mx-auto mt-[-3rem] bg-white rounded-full"
             src={Single}
@@ -55,7 +55,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="w-full shadow-xl bg-slate-500 flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl bg-slate-600 flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-24 h-24 mx-auto mt-[-3rem] bg-transparent rounded-full"
             src={Double}
@@ -70,7 +70,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="w-full bg-slate-500 shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full bg-slate-600 shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className=" mx-auto mt-[-3rem] bg-white rounded-full h-24 w-24"
             src={Triple}

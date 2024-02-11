@@ -11,7 +11,7 @@ const Mentor = () => {
       </h1>
 
       <div className="max-w-[1240px]  my-14 mx-auto grid md:grid-cols-2 gap-8">
-        <div className="w-full bg-slate-500 shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full bg-slate-600 shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-24 h-24 mx-auto mt-[-3rem] bg-white rounded-full"
             src={Single}
@@ -27,7 +27,7 @@ const Mentor = () => {
           </div>
         </div>
 
-        <div className="w-full shadow-xl bg-slate-500 flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl bg-slate-600 flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-24 h-24 mx-auto mt-[-3rem] bg-transparent rounded-full"
             src={Double}

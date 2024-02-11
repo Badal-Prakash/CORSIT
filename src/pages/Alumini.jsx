@@ -385,7 +385,7 @@ const people = [
 
 export default function Alumni() {
   return (
-    <div className="bg-slate-700 text-white py-24 sm:py-32">
+    <div className="bg-slate-900 text-white py-24 sm:py-32">
       <div className="pt-4 mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">

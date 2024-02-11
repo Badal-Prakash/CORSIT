@@ -239,14 +239,14 @@ const people = [
 
 const Team = () => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-slate-700 text-white ">
+    <div className="w-full py-[10rem] px-4 bg-slate-900 text-white ">
       <h2 className="text-3xl text-center font-bold tracking-tight text-white-900 sm:text-4xl">
         Our Team
       </h2>
       <div className="max-w-[1240px]  my-14 mx-auto grid md:grid-cols-3 gap-8">
         {people.map((person, i) => (
           // eslint-disable-next-line react/jsx-key
-          <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300  bg-slate-400">
+          <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300  bg-slate-600">
             <img
               key={i}
               className="aspect-square obje w-70 h-56 rounded-xl mx-auto mt-[-3rem] bg-white object-cover "
