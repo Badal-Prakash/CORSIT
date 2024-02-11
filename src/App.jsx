@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Heckfest from "./pages/Hackfest";
+// import Heckfest from "./pages/Hackfest";
 import OurTeam from "./pages/OurTeam";
 import Robocor from "./pages/Robocor";
 import Projects from "./pages/Projects";
@@ -11,7 +11,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div>
+    <div className="bg-slate-800">
       <BrowserRouter>
         <Header />
         <Routes>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/ourteam" element={<OurTeam />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/robocor" element={<Robocor />}></Route>
-          <Route path="/heckfest" element={<Heckfest />}></Route>
+          {/* <Route path="/heckfest" element={<Heckfest />}></Route> */}
         </Routes>
         <Footer />
       </BrowserRouter>
